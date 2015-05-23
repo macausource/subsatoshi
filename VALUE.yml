@@ -1,0 +1,64 @@
+split:
+  - authors:
+    shares: 50
+    split:
+      - ktorn:
+        shares: 50
+        crypto: bitcoin/1NahonrApDqaDbLn8KvK8EfU6omgug2JL6
+
+      - marcoleong:
+        shares: 50
+        crypto: bitcoin/1EGisKrfTjD72gHhvAhWDNq5mLyUZ9VcUe
+
+      - gestadieu:
+          shares: 50
+          # hold
+          # when a node doesn't have pay instructions, default is hold/save value for later claim
+
+  # Dependencies
+  - deps:
+      shares: 10
+      split:
+        - protocols:
+            shares: 1
+            split:
+              - http:
+                  shares: 1
+                  # hold
+
+              - bitcoin:
+                  shares: 1
+                  # example only - this URL doesn't exist
+                  url: https://github.com/bitcoin/bitcoin/VALUE.yml
+
+              - namesystem:
+                  shares: 1
+                  # example only - this URL doesn't exist
+                  url: https://github.com/namesystem/namesystem/VALUE.yml
+
+              - vdcp:
+                  shares: 1
+                  url: https://github.com/ktorn/vcdp/blob/master/VALUE.yml
+        - dependencies:
+            shares: 1
+            split:
+              - spring_boot:
+                  shares: 1
+                  # example only - this URL doesn't exist
+                  url: https://github.com/spring-projects/spring-boot/VALUE.yml
+
+  # Project Contributors
+  - contrib:
+      shares: 40
+      split:
+        - marcos: # thanks for the logo
+            shares: 1
+            # hold
+
+        - gene: # hk blockchain hackathon
+            shares: 1
+            crypto: bitcoin/1H1Gr57ojoYqff9JVhHhCD6apbx9ZUPvrz
+
+        - serina: # hk blockchain hackathon
+            shares: 1
+            crypto: bitcoin/1YJs5A2HtGS7oAacTUri7WgZVtugVDP3i
