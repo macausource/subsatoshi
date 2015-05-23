@@ -3,12 +3,12 @@ split:
     shares: 50
     split:
       - ktorn:
-        shares: 50
-        crypto: bitcoin/1NahonrApDqaDbLn8KvK8EfU6omgug2JL6
+          shares: 50
+          crypto: bitcoin/1NahonrApDqaDbLn8KvK8EfU6omgug2JL6
 
       - marcoleong:
-        shares: 50
-        crypto: bitcoin/1EGisKrfTjD72gHhvAhWDNq5mLyUZ9VcUe
+          shares: 50
+          crypto: bitcoin/1EGisKrfTjD72gHhvAhWDNq5mLyUZ9VcUe
 
       - gestadieu:
           shares: 50
