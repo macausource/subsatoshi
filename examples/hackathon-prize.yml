@@ -1,18 +1,32 @@
 version: 1
 description: hk blockchain hackathon 2015 - first prize split
 split:
-  - id: ktorn
-    shares: 1
-    crypto: bitcoin/1NahonrApDqaDbLn8KvK8EfU6omgug2JL6
+  - id: team
+    shares: 99
+    split:
+      - id: ktorn
+        shares: 1
+        crypto: bitcoin/1NahonrApDqaDbLn8KvK8EfU6omgug2JL6
 
-  - id: marcoleong
-    shares: 1
-    crypto: bitcoin/1EGisKrfTjD72gHhvAhWDNq5mLyUZ9VcUe
+      - id: marcoleong
+        shares: 1
+        crypto: bitcoin/1EGisKrfTjD72gHhvAhWDNq5mLyUZ9VcUe
 
-  - id: gene
-    shares: 1
-    crypto: bitcoin/1H1Gr57ojoYqff9JVhHhCD6apbx9ZUPvrz
+      - id: gene
+        shares: 1
+        crypto: bitcoin/1H1Gr57ojoYqff9JVhHhCD6apbx9ZUPvrz
 
-  - id: serina
+      - id: serina
+        shares: 1
+        crypto: bitcoin/1YJs5A2HtGS7oAacTUri7WgZVtugVDP3i
+        
+  - id: stack
     shares: 1
-    crypto: bitcoin/1YJs5A2HtGS7oAacTUri7WgZVtugVDP3i
+    split:
+      - id: gnupg
+        shares: 1
+        crypto: bitcoin/12LKeo24XCzgz6ASSxcUa8BvUfzkEyCpGq
+        
+      - id: gnu/fsf
+        shares: 1
+        crypto: bitcoin/1PC9aZC4hNX2rmmrt7uHTfYAS3hRbph4UN
