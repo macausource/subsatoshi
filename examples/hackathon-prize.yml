@@ -20,6 +20,8 @@ split:
         shares: 1
         crypto: bitcoin/1YJs5A2HtGS7oAacTUri7WgZVtugVDP3i
         
+    # this is not the actual stack we used, but only for the purposes of the hackathon demo
+    # most of our actual stack does not seem to accept Bitcoin donations (yet!)
   - id: stack
     shares: 1
     split:
