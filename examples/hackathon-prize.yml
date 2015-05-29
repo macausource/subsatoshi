@@ -1,8 +1,8 @@
 version: 1
-description: hk blockchain hackathon 2015 - first prize split
+description: hackcoin hk blockchain hackathon 2015 - award split
 split:
   - id: team
-    shares: 99
+    shares: 97
     split:
       - id: ktorn
         shares: 1
@@ -23,7 +23,7 @@ split:
     # this is not the actual stack we used, but only for the purposes of the hackathon demo
     # most of our actual stack does not seem to accept Bitcoin donations (yet!)
   - id: stack
-    shares: 1
+    shares: 3
     split:
       - id: gnupg
         shares: 1
